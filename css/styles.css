@@ -49,11 +49,6 @@ h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.parte-destaque p,
-.publi-card .card-text {
-    color: #555;
-}
-
 .btn-leia-mais {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -85,7 +80,6 @@ button a:hover {
     text-decoration: none;
 }
 
-
 /* ESTILOS DEDICADOS AS PÁGINAS DE NOTÍCIA */
 
 .parte-principal {
@@ -103,7 +97,6 @@ button a:hover {
     border-radius: 8px;
 }
 
-/* Adiciona margem superior ao título "Outras Histórias" */
 .sidebar {
     background-color: #f9f9f9;
     padding: 15px;
@@ -133,6 +126,17 @@ button a:hover {
 
 .sidebar ul li a:hover {
     text-decoration: underline;
+}
+
+.fundo-diferente {
+    color: #f9f9f9;
+    background-color: #478663;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 /* ESTILOS DEDICADOS A PÁGINA SOBRE */
